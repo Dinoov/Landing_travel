@@ -1,0 +1,252 @@
+body {
+    background-color: #EBF8FF;
+    width: 1440px;
+    height: 4010px;
+    margin: 0 auto; 
+}
+
+
+header {
+    background-color: #CFE7F5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font: optional;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: #266294;
+}
+
+.nav_menu ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.nav_menu ul li {
+    margin: 15px 35px 15px 35px; 
+    cursor: pointer; 
+}
+
+.nav_menu ul li:first-child {
+    margin-right: 130px; 
+}
+
+.nav_menu ul li:last-child {
+    margin-left: 130px; 
+    border: 3px solid #266294; 
+    padding: 7px 18px 7px 18px ;
+}
+
+.image-container {
+    position: relative; 
+    padding-bottom: 20px;
+}
+
+.overlay-img {
+    position: absolute; 
+    top: 233px; 
+    left: 364px; 
+    z-index: 2; 
+}
+
+.image-container h1 {
+    position: absolute; 
+    font-family: 'Arial', sans-serif; 
+    font-weight: 700;
+    font-size: 96px;
+    color: white;
+    top: 160px; 
+    left: 100px; 
+    z-index: 1; 
+}
+
+.image-container h2 {
+    position: absolute; 
+    font-family: 'Arial', sans-serif; 
+    font-weight: 700;
+    font-size: 32px;
+    color: white;
+    top: 400px; 
+    left: 100px; 
+
+}
+
+.two_btn {
+    display: flex; 
+    gap: 40px; 
+    position: absolute;
+    top: 672px; 
+    left: 100px;
+    z-index: 100;
+}
+
+.two_btn a {
+    padding: 16px 32px 16px 32px;
+    border: none; 
+    font-weight: 700;
+    font-size: 16px; 
+    cursor: pointer; 
+}
+
+.two_btn a:first-child {
+    background-color: #E96E25; 
+    color: white; 
+}
+
+.two_btn a:last-child {
+    color: #E96E25; 
+    border: 2px solid #E96E25; 
+}
+
+
+/*--------------------------------------*/
+
+
+.home-menu {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+}
+
+.home-menu h2 {
+    position: absolute; 
+    font-family: 'Arial', sans-serif; 
+    font-weight: 700;
+    font-size: 40px;
+    padding-top: 32px;
+    padding-left: 80px;
+    color: #111111;
+}
+
+.home-menu ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 32px;
+    padding-top: 104px;
+    list-style: none;
+}
+
+.home-menu li {
+    box-sizing: border-box;
+    text-align: center;
+    align-items: center;
+    margin: 0px; 
+    cursor: pointer; 
+}
+
+.home-menu img.base-img {
+    width: 630px;
+    height: 504px;
+
+}
+
+.home-menu span {
+    display: block;
+    margin-top: 10px; 
+    font-size: 32px; 
+    font-weight: 700;
+}
+
+/*--------------------------------------*/
+
+.hotel-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.menu-info {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 80px 80px 0px 80px ;
+}
+
+.hotel-menu h2 {
+    font-family: 'Arial', sans-serif; 
+    font-weight: 700;
+    font-size: 40px;
+    padding-top: 32px;
+    padding-left: 80px;
+    color: #111111;
+}
+
+.hotel-menu h3 {
+    font-family: 'Arial', sans-serif; 
+    font-weight: 700;
+    font-size: 32px;
+    color: #111111;
+}
+
+.hotel-menu a {
+    font-family: 'Arial', sans-serif; 
+    font-size: 24px;
+    color: #266294;
+    border-bottom: 2px solid #266294; 
+    padding-bottom: 2px; 
+    text-decoration: none;
+}
+
+.hotel-menu ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    padding: 25px 0 0 0;
+    margin: 0;
+    list-style: none;
+}
+
+.hotel-menu li {
+    text-align: left;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+}
+
+.hotel-menu span {
+    display: block;
+    margin-top: 4px; 
+    font-size: 16px; 
+    font-weight: 700;
+}
+
+/*--------------------------------------*/
+
+footer{
+    margin-top: 50px;
+    height:170px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #266294;
+    background-color: #CFE7F5;
+}
+
+
+.footer_menu ul {
+    display: flex;
+    align-items: top;
+}
+
+.footer_menu ul li {
+    margin: 0px 35px 15px 35px; 
+    cursor: pointer; 
+    font: optional;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.footer_menu ul li:first-child {
+    margin-right: 500px; 
+}
+
+
+
